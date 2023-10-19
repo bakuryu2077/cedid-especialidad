@@ -1,0 +1,120 @@
+@import url('estilo_modal_pagina.css');
+@import url('estilo_btn_pagina.css');
+
+
+:root{
+    --color-texto:#000;
+    --color-fondo:#fff;
+    --color-cabecera:red;
+    --color-cuerpo:rgb(255, 204, 0);
+    --color-pie:orange;
+    --color-botones:#f7de39;
+    --color-area:#ffffff;
+}
+
+*{
+    padding:0;
+    margin:0;
+
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:150vh;
+}
+
+.cuerpo{
+
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-content: space-evenly;
+    align-items: center;
+
+}
+
+.info{
+    width:100%;
+    height:100%;
+
+    background-color: var(--color-cuerpo);
+
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    
+        'cajaImg'
+       
+    ;
+
+    row-gap:1px; 
+
+    place-content:top;
+    place-items: top;
+
+
+    font-family: 'Preahvihear', sans-serif;
+    text-align: center;
+
+
+}
+
+.content3{
+    grid-area:cajaImg;
+
+    display:flex;
+    flex-direction: column;    
+    row-gap:0.3rem;
+
+    margin-top: 5vh;
+
+}
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    display: flex;
+   
+    gap:0.5rem;
+    
+    place-content: center;
+    place-items: center;   
+
+   
+    
+}
+
+.imagen {
+    width: 500px;
+    height: 700px;
+    background-size: 100% 100%;
+
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px #b67f00;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.controles{
+
+    margin-top: 5vh;
+
+}
+
+
+.imgs{
+    width:110px; 
+    height:110px;
+
+    border-radius:90%;
+    box-shadow: 4px 4px rgb(33, 0, 0);
+
+}

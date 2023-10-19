@@ -1,0 +1,128 @@
+@import url('estilo_modal_pagina.css');
+@import url('estilo_btn_pagina.css');
+
+
+:root{
+    --color-texto:#000;
+    --color-fondo:#fff;
+    --color-cabecera:red;
+    --color-cuerpo:rgb(255, 204, 0);
+    --color-pie:orange;
+
+    --color-botones:#f7de39;
+    --color-area:#ffffff;
+}
+
+*{
+    padding:0;
+    margin:0;
+
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:520px;
+
+   
+}
+
+.contenedor{
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+}
+
+.cuerpo{
+    width:100%;
+    height:100%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info{
+
+    background-color: var(--color-cuerpo);
+
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 70% 40%;
+    grid-template-areas: 
+        'cajaT'
+        'cajaTx'
+        'cajaBtn'
+    ;
+
+    font-family: 'Preahvihear', sans-serif;
+    text-align: center;
+
+}
+
+.innerTitles{
+    grid-area:cajaT;
+    margin-top: 5vh;
+    font-family: 'Preahvihear', sans-serif;
+    color: rgb(177, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: bold;
+
+    text-shadow: 1px 2px 3px #000;
+}
+
+.content1{
+
+    grid-area: cajaTx;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+
+}
+
+.content2{
+    grid-area:cajaBtn;
+
+    margin-top:5vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    row-gap:0.5rem;
+
+    place-content: center;
+    place-items: center;
+
+
+}
+
+.texto{
+    font-family: 'Preahvihear', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+
+    color:#410000;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.central{
+    width:500px;
+    height:420px;
+
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.8);
+}
+
+.central_1{
+    width:450px;
+    height:620px;
+    border-radius:5px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.8);
+}
+
+

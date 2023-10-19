@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+.botonP{
+    cursor: pointer;
+
+    background-color: rgb(110, 2, 2);
+    width: 250px;
+    height:75px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(255, 183, 0), -0.5em 0 0.4em #fff;
+    transition: all 0.5s ease-in-out 0.2s;
+    
+}
+
+.txt_btn{
+    text-shadow: 1px 1px 2px black ;
+    text-align: center;
+    color: #fffab3;
+    font-family: 'Preahvihear', sans-serif;
+
+    font-size: 1.2em;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.botonP:hover{
+    background-color: rgb(240, 145, 77);
+ 
+    transform: translateY(-0.5rem);
+}
+
+.txt_btn:hover{
+    
+    color: #410101;
+    
+}
+
+.retroceder{
+    cursor: pointer;
+
+    background-color: rgb(255, 223, 118);
+    width: 200px;
+    height:50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(110, 79, 0);
+    transition: all 0.5s ease-in-out 0.2s;
+
+    font-family: 'Preahvihear', sans-serif;
+
+    font-size: 1.2em;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.avanzar{
+    cursor: pointer;
+
+    background-color: rgb(255, 223, 118);
+    width: 200px;
+    height:50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(110, 79, 0);
+    transition: all 0.5s ease-in-out 0.2s;
+
+    font-family: 'Preahvihear', sans-serif;
+
+    font-size: 1.2em;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.play{
+    cursor: pointer;
+
+    background-color: rgb(255, 223, 118);
+    width: 180px;
+    height:50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(110, 79, 0);
+    transition: all 0.5s ease-in-out 0.2s;
+
+    font-family: 'Preahvihear', sans-serif;
+
+    font-size: 1em;
+    font-style: bold;
+    font-weight: 500;
+}
+
+.stop{
+    cursor: pointer;
+
+    background-color: rgb(255, 223, 118);
+    width: 180px;
+    height:50px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(110, 79, 0);
+    transition: all 0.5s ease-in-out 0.2s;
+
+    font-family: 'Preahvihear', sans-serif;
+
+    font-size: 1em;
+    font-style: bold;
+    font-weight: 500;
+}
